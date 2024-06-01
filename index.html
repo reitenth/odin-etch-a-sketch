@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Etch-a-Sketch</h1>
+
+      <div class="grid-size-row">
+        <p>New grid size:</p>
+        <input type="text" />
+        <button>Submit</button>
+      </div>
+
+      <div class="color-picker-row">
+        <input type="radio" id="black" /> <label>Black</label>
+        <input type="radio" id="red" /> <label>Red</label>
+        <input type="radio" id="blue" /> <label>Blue</label>
+        <input type="radio" id="eraser" /> <label>Eraser</label>
+        <button>Clear</button>
+      </div>
+
+      <div class="board-container">
+        <div class="board"></div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
