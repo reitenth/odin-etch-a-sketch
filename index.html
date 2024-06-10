@@ -12,16 +12,19 @@
 
       <div class="grid-size-row">
         <p>New grid size:</p>
-        <input type="text" />
-        <button>Submit</button>
+        <input type="text" id="form-box" />
+        <button id="submit">Submit</button>
       </div>
 
+      <div class="message"><em>Please provide a number from 2-100</em></div>
+      <div class="message"><em>Click to toggle draw</em></div>
+
       <div class="color-picker-row">
-        <input type="radio" id="black" /> <label>Black</label>
-        <input type="radio" id="red" /> <label>Red</label>
-        <input type="radio" id="blue" /> <label>Blue</label>
-        <input type="radio" id="eraser" /> <label>Eraser</label>
-        <button>Clear</button>
+        <input type="radio" id="black" name="radio" /> <label>Black</label>
+        <input type="radio" id="red" name="radio"/> <label>Red</label>
+        <input type="radio" id="blue" name="radio"/> <label>Blue</label>
+        <input type="radio" id="eraser" name="radio"/> <label>Eraser</label>
+        <button id="clear">Clear</button>
       </div>
 
       <div class="board-container">
