@@ -6,6 +6,8 @@ const clear = document.querySelector("#clear");
 let click = false;
 createBoard(16);
 
+// toggle draw mode with a mouse click
+
 document
 	.querySelector("body")
 	.addEventListener("click", function (enableBoard) {
